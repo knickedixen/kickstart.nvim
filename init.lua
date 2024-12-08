@@ -886,3 +886,5 @@ require('lazy').setup({
 -- knix:
 
 vim.keymap.set('n', '<leader>xp', '<cmd>w<CR> <cmd>!python3 %:p<CR>')
+vim.keymap.set('n', '<leader>xl', ':.lua<CR>')
+vim.keymap.set('v', '<leader>xl', ':lua<CR>')
